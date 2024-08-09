@@ -1,5 +1,5 @@
 import funciones.funcionGlobales as globals
-
+import interface.compras as compras
 def menuPrincipal(op):
     globals.borrar_pantalla()
     encabezdo = """
@@ -22,7 +22,7 @@ def menuPrincipal(op):
                 case 1:
                     pass 
                 case 2: 
-                    pass
+                    compras.gestionCompra(0)
                 case 3: 
                     globals.borrar_pantalla()
                     print('Fue un gusto servirle...Vuelva pronto.')
