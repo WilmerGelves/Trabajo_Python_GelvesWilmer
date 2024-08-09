@@ -1,5 +1,5 @@
 import funciones.funcionGlobales as globals
-
+import interface.ventas as ventas
 def menuPrincipal(op):
     globals.borrar_pantalla()
     encabezdo = """
@@ -20,7 +20,7 @@ def menuPrincipal(op):
         else:
             match (op):
                 case 1:
-                    pass 
+                    ventas.gestionVenta(0)
                 case 2: 
                     pass
                 case 3: 
