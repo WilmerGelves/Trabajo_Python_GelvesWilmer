@@ -7,7 +7,7 @@ def menuPrincipal(op):
     * Panadería Pan-Camp *
     **********************
     """
-    options = '\t1.Venta.\n\t2.Compra.\n\t3.Gestion al pacientes.\n\t4.Salir'
+    options = '\t1.Venta.\n\t2.Compra.\n\t3.Salir'
     if (op != 3):
         print(encabezdo)
         print(options)
